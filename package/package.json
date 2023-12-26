@@ -1,0 +1,40 @@
+{
+  "name": "slate-with-pages",
+  "version": "1.0.0",
+  "description": "A package that helps you build pagination for Slate React",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew3314/slate-with-pages.git"
+  },
+  "keywords": [
+    "slate",
+    "slate-react",
+    "slatejs",
+    "pagination",
+    "paged",
+    "pages",
+    "document"
+  ],
+  "author": "andrew3314",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrew3314/slate-with-pages/issues"
+  },
+  "homepage": "https://github.com/andrew3314/slate-with-pages#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "slate": "^0.101.5",
+    "slate-history": "^0.100.0",
+    "slate-react": "^0.101.5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "slate": "^0.101.5",
+    "slate-history": "^0.100.0",
+    "slate-react": "^0.101.5"
+  }
+}

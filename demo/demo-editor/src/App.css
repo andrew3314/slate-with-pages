@@ -1,0 +1,29 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+.editor-pages{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 12px;
+  gap: 12px;
+}
+.page{
+  width: 10.5cm;
+  height: 14.85cm;
+  background-color: white;
+  padding: 1in 1.5in 1in 1.5in;
+  margin-bottom: 12px;
+  border: 1px solid grey;
+  box-shadow: 10px;
+}
+
+.inner-page-container{
+  height: fit-content;
+  width: 100%;
+}
