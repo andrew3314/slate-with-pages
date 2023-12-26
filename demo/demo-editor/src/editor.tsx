@@ -1,9 +1,26 @@
-import React, { useMemo, useState } from 'react'
-import { Descendant, createEditor } from 'slate'
+import { useState } from 'react'
+import { createEditor } from 'slate'
 import { Slate, Editable, withReact } from 'slate-react'
-import { withPages } from './src copy'
+import { withPages } from './with-pages'
 import { PageElement } from './custom-types'
 const initialValue: any = [
+  {
+    type: 'page',
+    children: [
+      { 
+        type: 'paragraph',
+        children: [
+          {
+            type: 'text',
+            text: 'Hey you!'
+          }
+        ],
+      },
+    ],
+  }
+]
+
+const emptyPage: PageElement = 
   {
     type: 'page',
     children: [
@@ -18,17 +35,6 @@ const initialValue: any = [
       },
     ],
   }
-]
-
-const emptyPage = {
-  type: 'page',
-  children: [
-    { 
-      type: 'paragraph',
-      text: '' 
-    },
-  ],
-}
 
 const ops = {
   pageTypeName: 'page',
@@ -39,7 +45,7 @@ const DemoEditor = () => {
   const editorWithPagination = withPages(base, ops)
   return (
     <div className='editor-pages'>
-      <Slate editor={base} initialValue={initialValue}>
+      <Slate editor={editorWithPagination} initialValue={initialValue}>
         <Editable 
           style={{outline: 'none'}}
           renderElement={(props): any => {
@@ -60,7 +66,6 @@ const DemoEditor = () => {
                 </div>
               )
           }
-
         }}
        />
       </Slate>
