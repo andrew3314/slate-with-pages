@@ -15,9 +15,9 @@
     "react-scripts": "5.0.1",
     "slate": "^0.101.5",
     "slate-react": "^0.101.5",
+    "slate-with-pages": "^1.0.0",
     "typescript": "^4.4.2",
-    "web-vitals": "^2.1.0",
-    "with-pages": "file:../../package/src"
+    "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
