@@ -9338,6 +9338,11 @@ typedarray-to-buffer@^3.1.5:
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz"
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
+typescript@^5.3.3:
+  version "5.3.3"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-5.3.3.tgz"
+  integrity sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==
+
 unbox-primitive@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/unbox-primitive/-/unbox-primitive-1.0.2.tgz"
@@ -9754,6 +9759,17 @@ which@^2.0.1:
   integrity sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
   dependencies:
     isexe "^2.0.0"
+
+with-pages-slate@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/with-pages-slate/-/with-pages-slate-1.0.4.tgz"
+  integrity sha512-vtk8Y6iK5vJVihIfkhRsJosBHv+gE5AdMWVznZnns2QRrVrCvX8TD4V7heLktgUjRT3sJe7mjL2lOftUKYJBuw==
+  dependencies:
+    react "^18.2.0"
+    slate "^0.101.5"
+    slate-history "^0.100.0"
+    slate-react "^0.101.5"
+    typescript "^5.3.3"
 
 word-wrap@~1.2.3:
   version "1.2.5"

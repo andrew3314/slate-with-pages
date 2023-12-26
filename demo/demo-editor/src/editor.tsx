@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { createEditor } from 'slate'
 import { Slate, Editable, withReact } from 'slate-react'
-import { withPages } from './with-pages'
+import { withPages } from 'with-pages-slate'
 import { PageElement } from './custom-types'
 const initialValue: any = [
   {
