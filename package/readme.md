@@ -1,4 +1,4 @@
-# Logic
+## Logic
 In essence, it is a normalizer that checks whether or not there is oveflow on the 'page' node. Case positive, it then checks if there already is a next page, then it splits the selection and wraps it around another node or just move the selection according to the former condition. 
 
 ## Usage
@@ -10,8 +10,8 @@ import { withPages } from 'with-pages-slate'
 
 // then use it as a normal plugin
 const editor = withPages(createEditor(), {
-    pageTypeName: 'the name of the node type that will represent your page',
-    emptyPage: Element // see [1] below
+    pageTypeName: 'node type', //custom node type that will represent your page node
+    emptyPage: Element //see [1] below
 })
 ```
 
