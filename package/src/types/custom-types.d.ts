@@ -1,5 +1,4 @@
-import { BaseElement, Node } from "slate"
-import { PageElement } from "../../custom-types"
+import { Node } from "slate"
 
 export type WithPageElementType = {
     type: opsType.pageTypeName,

@@ -1,4 +1,4 @@
-import { NodeEntry, Transforms, Element, Node } from "slate"
+import { NodeEntry, Transforms, Element } from "slate"
 import { ReactEditor } from "slate-react"
 import { opsType } from "./types/custom-types"
 

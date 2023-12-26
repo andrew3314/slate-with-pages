@@ -1,9 +1,15 @@
 {
-  "name": "slate-with-pages",
-  "version": "1.0.0",
+  "name": "with-pages-slate",
+  "version": "1.0.3",
   "description": "A package that helps you build pagination for Slate React",
-  "main": "src/index.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsup",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,12 +35,16 @@
     "react": "^18.2.0",
     "slate": "^0.101.5",
     "slate-history": "^0.100.0",
-    "slate-react": "^0.101.5"
+    "slate-react": "^0.101.5",
+    "typescript": "^5.3.3"
   },
   "peerDependencies": {
     "react": "^18.2.0",
     "slate": "^0.101.5",
     "slate-history": "^0.100.0",
     "slate-react": "^0.101.5"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.1"
   }
 }

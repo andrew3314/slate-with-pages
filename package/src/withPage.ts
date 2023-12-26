@@ -1,8 +1,9 @@
 import { ReactEditor } from 'slate-react'
 import normalizePage from './normalizePage';
+import { opsType } from './types/custom-types';
 
 
-const withPages = (editor: ReactEditor, ops: any) => {
+const withPages = (editor: ReactEditor, ops: opsType) => {
   const { normalizeNode } = editor
 
   editor.normalizeNode = (entry) => {
