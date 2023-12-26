@@ -8,3 +8,6 @@ Inside the '/demo' folder you'll find a React app example with the paginated edi
 The isolated package can be found under '/package'. More explanation on how it works can be seen there.
 
 You can try the example and get a notion for how to implement it by yourself. 
+
+
+Live demo at https://slate-with-pages-vqj4.vercel.app/
