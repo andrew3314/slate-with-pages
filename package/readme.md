@@ -11,8 +11,8 @@ import { withPages } from 'with-pages-slate'
 // then use it as a normal plugin
 const editor = withPages(createEditor(), {
     pageTypeName: 'the name of the node type that will represent your page',
-    emptyPage: Element // see * below
+    emptyPage: Element // see [1] below
 })
 ```
 
-* an element to be rendered as your blank page everytime a page break occurs. Be aware that you need to declare your custom node type. Check the demo editor and Slate documentation on the subject for better comprehension
+\[1] an element to be rendered as your blank page everytime a page break occurs. Be aware that you need to declare your custom node type. Check the demo editor and Slate documentation on the subject for better comprehension
